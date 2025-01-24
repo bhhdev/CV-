@@ -1,0 +1,172 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+/* PRESENTATION STYLE */
+.section-title {
+    padding-top: 1%;
+    text-decoration: underline red;
+    margin: 3% 0%;
+}
+h1 {
+    font-family: "Italianno", serif;
+    text-decoration: underline red;
+    transform: rotate(-7.5deg);
+    padding: 3% 0;
+}
+.photo {
+    height: 12rem;
+    width: 10rem;
+    background-color: grey;
+    border: 1px solid red;
+}
+h2 {
+    padding-top: 3% 3%;
+    text-decoration: underline red;
+}
+
+
+/* SURBRILLANCE NAVBAR */
+.navbar {
+    opacity: 0.95;
+    z-index: 1;
+}
+ul {
+    margin-top: 3%;
+}
+.navbar-toggler-icon {
+    color: red;
+}
+li {
+    text-decoration: underline red;
+}
+
+a:hover {
+    text-decoration: underline red;
+    font-weight: bold;
+    background: linear-gradient(135deg, red, silver, red, white, red, gold, red, gold, red, white, red, silver, red);
+    background-size: 400% 400%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: glowing 50ms ease-in-out infinite;
+}
+@keyframes glowing {
+    0% {
+    background-position: 0% 0%;
+}
+    50% {
+    background-position: 400% 0%;
+}
+    100% {
+    background-position: 0% 0%;
+}
+}
+
+
+/* SEPARATEUR STYLE */
+.separateur1 {
+    height: 4px;
+    width: 75%;
+    margin-top: 10%;
+    margin-left: 12%;
+}
+.separateur2 {
+    height: 2px;
+    width: 75%;
+    margin-left: 12%;
+}
+
+/* ID STYLE */
+#exp-pro, #cv, #diplome, #competences, #contact {
+    height: 80vh;
+}
+
+.title-h6 {
+    text-decoration: underline red;
+}
+
+/* SECTION COMPETENCES STYLE */
+.sigles {
+    height: 40%;
+    width: 75%;
+}
+.frame {
+    height: 40%;
+    width: 75%;
+    opacity: 0.9;
+    border-radius: 10px;
+    margin: 5% 2%;
+}
+
+/* CARDS STYLE */
+.contenant-cards {
+    width: 75%;
+    height: 20%;
+    margin: 0.5% 12.5% 2% 12.5% ;
+}
+.card {
+    width: 13%;
+    height: 95%;
+    gap: 2px;
+    background-color: black;
+}
+/* KEYFRAMES ROTATE */
+.img-rotate1 {
+    animation: rotate 4s ease-in-out 3s infinite;
+}
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.img-rotate2 {
+    animation: rotate2 3s ease-in-out 5s infinite;
+}
+@keyframes rotate2 {
+    0% {transform: rotate(360deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.img-rotate3 {
+    animation: rotate3 2s ease-in-out 4s infinite;
+}
+@keyframes rotate3 {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.img-rotate4 {
+    animation: rotate4 5s ease-in-out 1s infinite;
+}
+@keyframes rotate4 {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+
+
+/* SECTION CANTACT STYLE */
+.contenant-form {
+    height: 100%;
+    width: 100%;
+}
+.div-form {
+    height: 95%;
+    width: 75%;
+    background: linear-gradient(150deg, rgb(33, 33, 33) 15%,rgb(40, 40, 40) 20%, rgb(52, 52, 52) 25%,rgb(66, 65, 65),rgb(76,76,76),rgb(83, 83, 83) 35%,rgb(97, 97, 97),rgb(107, 107, 107),rgb(117, 117, 117),rgb(127, 127, 127),rgb(137, 137, 137),rgb(148, 148,148),rgb(159,159,159),rgb(169, 169, 169),rgb(179, 179, 179),rgb(189, 189, 189) 65%,rgb(169,169,169) 72%,rgb(148, 148,148), rgb(135,135,135), rgba(98, 98, 98) ,rgb(66, 65, 65) 90%, rgb(33,33,33));;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.style {
+    border: 1px solid red;
+}
+.text-space {
+    width: 80%;
+    margin: auto;
+}
