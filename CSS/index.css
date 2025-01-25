@@ -26,7 +26,7 @@ h1 {
     border: 1px solid red;
 }
 h2 {
-    padding-top: 3% 3%;
+    padding-top: 6%;
     text-decoration: underline red;
 }
 
@@ -35,6 +35,7 @@ h2 {
 .navbar {
     opacity: 0.95;
     z-index: 1;
+    margin-top: 5.5%;
 }
 ul {
     margin-top: 3%;
@@ -112,8 +113,7 @@ a:hover {
 }
 .card {
     width: 13%;
-    height: 95%;
-    gap: 2px;
+    height: 20%;
     background-color: black;
 }
 /* KEYFRAMES ROTATE */
@@ -157,9 +157,9 @@ a:hover {
     width: 100%;
 }
 .div-form {
-    height: 95%;
+    height: 98%;
     width: 75%;
-    background: linear-gradient(150deg, rgb(33, 33, 33) 15%,rgb(40, 40, 40) 20%, rgb(52, 52, 52) 25%,rgb(66, 65, 65),rgb(76,76,76),rgb(83, 83, 83) 35%,rgb(97, 97, 97),rgb(107, 107, 107),rgb(117, 117, 117),rgb(127, 127, 127),rgb(137, 137, 137),rgb(148, 148,148),rgb(159,159,159),rgb(169, 169, 169),rgb(179, 179, 179),rgb(189, 189, 189) 65%,rgb(169,169,169) 72%,rgb(148, 148,148), rgb(135,135,135), rgba(98, 98, 98) ,rgb(66, 65, 65) 90%, rgb(33,33,33));;
+    background: linear-gradient(150deg, rgb(33, 33, 33) 15%, rgb(40, 40, 40) 20%, rgb(52, 52, 52) 25%,rgb(66, 65, 65),rgb(76,76,76),rgb(83, 83, 83) 35%,rgb(97, 97, 97),rgb(107, 107, 107),rgb(117, 117, 117),rgb(127, 127, 127),rgb(137, 137, 137),rgb(148, 148,148),rgb(159,159,159),rgb(169, 169, 169),rgb(179, 179, 179),rgb(189, 189, 189) 65%,rgb(169,169,169) 72%,rgb(148, 148,148), rgb(135,135,135), rgba(98, 98, 98) ,rgb(66, 65, 65) 90%, rgb(33,33,33));;
     border: 2px solid red;
     border-radius: 20px;
 }
@@ -169,4 +169,22 @@ a:hover {
 .text-space {
     width: 80%;
     margin: auto;
+}
+.div-textarea {
+    height: 100%;
+}
+.textarea {
+    width: 80%;
+    height: 100%;
+    border: 1px solid red;
+    overflow: auto;
+}
+.form-label, .to {
+    text-decoration: underline red;
+}
+
+@media (max-width: 350px) {
+    .textarea {
+        width: 90%;
+    }
 }

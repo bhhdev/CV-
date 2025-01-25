@@ -17,7 +17,7 @@
         <div class="d-flex justify-content-center">
             <div class="photo text-center fs-5">photo</div>
         </div>
-        <h2 class="text-uppercase display-2 text-center">Développeur Web</h2>
+        <h2 class="text-uppercase display-3 text-center">Développeur Web</h2>
     </header>
     <!-- END HEADER -->
 
@@ -29,7 +29,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center">
-                    <ul class="navbar-nav column-gap-5 text-uppercase bg-dark rounded-4">
+                    <ul class="navbar-nav column-gap-5 text-uppercase bg-black rounded-4">
                         <li class="nav-item">
                             <a class="nav-link text-white" aria-current="page" href="#presentation">présentation</a>
                         </li>
@@ -177,18 +177,26 @@
                 <div class="div-form">
                     <form>
                         <div class="text-space text-center mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <label for="exampleInputEmail1" class="form-label">Email address from</label>
                             <input type="email" class="form-control rounded-4" id="exampleInputEmail1" aria-describedby="emailHelp">
                             <div id="emailHelp" class="form-text text-danger">We'll never share your email with anyone else.</div>
                         </div>
+                        <div class="text-center">
+                            <p class="to">to : </p>
+                            <p>bhh.develop@gmail.com</p>
+                        </div>
                         <div class="text-space text-center mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control rounded-4" id="exampleInputPassword1">
+                            <label for="exampleInputPassword1" class="form-label">Object</label>
+                            <input type="text" class="form-control rounded-4" id="exampleInputPassword1">
                         </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        <div class="text-center">
+                            <p class="to">Your message</p>
                         </div>
+                        <div class="div-textarea d-flex justify-content-center">
+                            <label for="your-message"></label>
+                            <textarea class="textarea rounded-2 text-black" name="message" id="story" rows="4" cols="15"></textarea>
+                        </div>
+                        <br>
                         <div class="d-flex justify-content-center">
                             <button type="submit" class="btn btn-danger">Submit</button>
                         </div>    
