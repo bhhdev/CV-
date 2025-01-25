@@ -6,70 +6,7 @@
     color: white;
 }
 
-
-/* PRESENTATION STYLE */
-.section-title {
-    padding-top: 1%;
-    text-decoration: underline red;
-    margin: 3% 0%;
-}
-h1 {
-    font-family: "Italianno", serif;
-    text-decoration: underline red;
-    transform: rotate(-7.5deg);
-    padding: 3% 0;
-}
-.photo {
-    height: 12rem;
-    width: 10rem;
-    background-color: grey;
-    border: 1px solid red;
-}
-h2 {
-    padding-top: 6%;
-    text-decoration: underline red;
-}
-
-
-/* SURBRILLANCE NAVBAR */
-.navbar {
-    opacity: 0.95;
-    z-index: 1;
-    margin-top: 5.5%;
-}
-ul {
-    margin-top: 3%;
-}
-.navbar-toggler-icon {
-    color: red;
-}
-li {
-    text-decoration: underline red;
-}
-
-a:hover {
-    text-decoration: underline red;
-    font-weight: bold;
-    background: linear-gradient(135deg, red, silver, red, white, red, gold, red, gold, red, white, red, silver, red);
-    background-size: 400% 400%;
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: glowing 50ms ease-in-out infinite;
-}
-@keyframes glowing {
-    0% {
-    background-position: 0% 0%;
-}
-    50% {
-    background-position: 400% 0%;
-}
-    100% {
-    background-position: 0% 0%;
-}
-}
-
-
+/*//////////////////////////////////////////////// SEPARATEUR SECTION \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 /* SEPARATEUR STYLE */
 .separateur1 {
     height: 4px;
@@ -83,14 +20,16 @@ a:hover {
     margin-left: 12%;
 }
 
+/*//////////////////////////////////////////////// GENERAL SECTION \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 /* ID STYLE */
 #exp-pro, #cv, #diplome, #competences, #contact {
     height: 80vh;
 }
-
 .title-h6 {
     text-decoration: underline red;
 }
+
+                            /*////////////////////// DETAILS SECTION \\\\\\\\\\\\\\\\\\\\\\\*/
 
 /* SECTION COMPETENCES STYLE */
 .sigles {
@@ -149,15 +88,73 @@ a:hover {
     100% {transform: rotate(360deg);}
 }
 
+/*//////////////////////////////////////////////// PRESENTATION SECTION \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/* PRESENTATION STYLE */
+.section-title {
+    padding-top: 1%;
+    text-decoration: underline red;
+    margin: 3% 0%;
+}
+h1 {
+    font-family: "Italianno", serif;
+    text-decoration: underline red;
+    transform: rotate(-7.5deg);
+    padding: 3% 0;
+}
+.photo {
+    height: 12rem;
+    width: 10rem;
+    background-color: grey;
+    border: 1px solid red;
+}
+h2 {
+    padding-top: 6%;
+    text-decoration: underline red;
+}
+
+/*//////////////////////////////////////////////// NAVBAR SECTION \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/* SURBRILLANCE NAVBAR */
+.navbar {
+    opacity: 0.95;
+    z-index: 1;
+    margin-top: 5.5%;
+}
+
+li {
+    text-decoration: underline red;
+}
+
+a:hover {
+    text-decoration: underline red;
+    font-weight: bold;
+    background: linear-gradient(135deg, red, silver, red, white, red, gold, red, gold, red, white, red, silver, red);
+    background-size: 400% 400%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: glowing 50ms ease-in-out infinite;
+}
+@keyframes glowing {
+    0% {
+    background-position: 0% 0%;
+}
+    50% {
+    background-position: 400% 0%;
+}
+    100% {
+    background-position: 0% 0%;
+}
+}
 
 
+/*//////////////////////////////////////////////// CONTACT SECTION \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 /* SECTION CANTACT STYLE */
 .contenant-form {
     height: 100%;
     width: 100%;
 }
 .div-form {
-    height: 98%;
+    height: 95%;
     width: 75%;
     background: linear-gradient(150deg, rgb(33, 33, 33) 15%, rgb(40, 40, 40) 20%, rgb(52, 52, 52) 25%,rgb(66, 65, 65),rgb(76,76,76),rgb(83, 83, 83) 35%,rgb(97, 97, 97),rgb(107, 107, 107),rgb(117, 117, 117),rgb(127, 127, 127),rgb(137, 137, 137),rgb(148, 148,148),rgb(159,159,159),rgb(169, 169, 169),rgb(179, 179, 179),rgb(189, 189, 189) 65%,rgb(169,169,169) 72%,rgb(148, 148,148), rgb(135,135,135), rgba(98, 98, 98) ,rgb(66, 65, 65) 90%, rgb(33,33,33));;
     border: 2px solid red;
@@ -172,19 +169,15 @@ a:hover {
 }
 .div-textarea {
     height: 100%;
+    width: 80%;
 }
 .textarea {
-    width: 80%;
+    width: 100%;
     height: 100%;
     border: 1px solid red;
     overflow: auto;
+    margin-left: 0%;
 }
 .form-label, .to {
     text-decoration: underline red;
-}
-
-@media (max-width: 350px) {
-    .textarea {
-        width: 90%;
-    }
 }
