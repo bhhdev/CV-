@@ -13,25 +13,25 @@
 <body class="bg-black">
     <!-- START HEADER -->
     <header>
-        <h1 class="display-1 texy-decoration text-center" id="presentation">Bruno Hémon</h1>
-        <div class="d-flex justify-content-center">
-            <div class="photo text-center fs-5">photo</div>
-        </div>
-        <h2 class="text-uppercase display-3 text-center">Développeur Web</h2>
+        <h1 class="display-1 texy-decoration text-center text-white" id="presentation">Bruno Hémon</h1>
+            <div class="d-flex justify-content-center">
+                <div class="photo text-center fs-5">photo</div>
+            </div>
+            <h2 class="text-uppercase display-3 text-center text-white">Développeur Web</h2>
     </header>
     <!-- END HEADER -->
-
+    
     <!-- START NAVBAR -->
-    <section>
-        <nav class="navbar navbar-expand-lg postion-fixed w-100">
+    <section class="d-flex justify-content-center">
+        <nav class="navbar navbar-expand-lg position-fixed">
             <div class="container-fluid d-flex justify-content-center">
-                <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center">
-                    <ul class="navbar-nav column-gap-5 text-uppercase bg-black rounded-4">
+                <div class="col collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 column-gap-5 text-uppercase bg-black rounded-4">
                         <li class="nav-item">
-                            <a class="nav-link text-white" aria-current="page" href="#presentation">présentation</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#presentation">présentation</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#competences">compétences</a>
@@ -54,7 +54,7 @@
         </nav>
     </section>
     <!-- END NAVBAR -->
-
+    
     <!-- START MAIN -->
     <main>
         <!-- START SEPARATEUR -->
@@ -71,43 +71,36 @@
             <div>
                 <h3 class="section-title text-uppercase text-center">compétences</h3>
             </div>
+                <div>
+                    <h6 class="title-h6 text-uppercase text-center">Mes langages de programmation</h6>
+                    <div class="cont d-flex justify-content-center">
+                        <div class="div-decor">
+                            <img src="./assets/images/vecteezy_free-logo-html-5_53066798.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="div-decor">
+                            <img src="./assets/images/vecteezy_free-logo-css_53066794.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
 
-            <!-- START PARTIE LANG DE PROG -->
-            <div class="title-h6 text-center">
-                <h6 class="title-h6 text-center text-uppercase text-tertiary fw-bold">Mes langages de programmation</h6>
-            </div>
-            <div class="contenant-cards d-flex justify-content-evenly">
-                <div class="card bg-black">
-                    <img src="./assets/images/vecteezy_free-logo-html-5_53066798.png" class="img-rotate1 img-fluid" alt="logo html 5">
+                <div>
+                    <h6 class="title-h6 text-uppercase text-center">Mes frameworks</h6>
+                    <div class="d-flex justify-content-evenly">
+                        <div class="div-decor">
+                            <img src="./assets/images/vecteezy_free-logo-bootstrap_53066777.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="card bg-black">
-                    <img src="./assets/images/vecteezy_free-logo-css_53066794.png" class="img-rotate2 img-fluid" alt="logo css 3">
-                </div>
-            </div>
-            <!-- END PARTIE LANG DE PROG -->
+                <div>
+                    <h6 class="title-h6 text-uppercase text-center">Mes ide</h6>
+                    <div class="d-flex justify-content-evenly">
+                        <div class="div-decor">
+                            <img src="./assets/images/vecteezy_free-logo-visual-studio_53066779.png" class="img-fluid" alt="">
+                        </div>
 
-            <!-- START PARTIE FW -->
-            <div class="title-h6 text-center">
-                <h6 class="title-h6 text-center text-uppercase text-teriary fw-bold">Mes frameworks</h6>
-            </div>
-            <div class="contenant-cards d-flex justify-content-evenly">
-                <div class="card bg-black">
-                    <img src="./assets/images/vecteezy_free-logo-bootstrap_53066777.png" class="img-rotate3 img-fluid" alt="logo bootstrap">
+                    </div>
                 </div>
-            </div>
-            <!-- END PARTIE FW -->
-
-            <!-- START PARTIE IDE -->
-            <div class="title-h6 text-center"></div>
-                <h6 class="title-h6 text-center text-uppercase text-teriary fw-bold">Mes IDE</h6>
-            </div>
-            <div class="contenant-cards d-flex justify-content-evenly">
-                <div class="card bg-black">
-                    <img src="./assets/images/vecteezy_free-logo-visual-studio_53066779.png" class="img-rotate4 img-fluid" alt="Logo Visual Studio Code">
-                </div>
-            </div>
         </section>
-        <!-- END PARTIE IDE -->
 <!-- END SECTION COMPETENCES-->
 
         <!-- START SEPARATEUR -->
