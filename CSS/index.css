@@ -12,7 +12,7 @@
 .separateur1 {
     height: 4px;
     width: 75%;
-    margin-top: 5%;
+    margin-top: 7%;
     margin-left: 12%;
 }
 .separateur2 {
@@ -102,13 +102,10 @@ li {
 
 
 /* CARDS STYLE */
-.div-decor {
+
+.logo-lp {
     height: 25%;
-    width: 35%;
-    background: linear-gradient(150deg, rgb(33, 33, 33) 15%, rgb(40, 40, 40) 20%, rgb(52, 52, 52) 25%,rgb(66, 65, 65),rgb(76,76,76),rgb(83, 83, 83) 35%,rgb(97, 97, 97),rgb(107, 107, 107),rgb(117, 117, 117),rgb(127, 127, 127),rgb(137, 137, 137),rgb(148, 148,148),rgb(159,159,159),rgb(169, 169, 169),rgb(179, 179, 179),rgb(189, 189, 189) 65%,rgb(169,169,169) 72%,rgb(148, 148,148), rgb(135,135,135), rgba(98, 98, 98) ,rgb(66, 65, 65) 90%, rgb(33,33,33));;
-    border: 2px solid red;
-    border-radius: 10px;
-    margin-bottom: 7%;
+    width: 15%;
 }
 .contenant-cards1, .contenant-cards2, .contenant-cards3 {
     width: 40%;
