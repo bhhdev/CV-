@@ -23,7 +23,7 @@
 
 /*//////////////////////////////////////////////// GENERAL SECTION \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 /* ID STYLE */
-#contact, #competences, #exp-pro, #cv, #diplome {
+#contact, #competences, #projets, #cv, #diplome {
     height: 80vh;
 }
 .title-h6 {
@@ -67,7 +67,7 @@ h2 {
     opacity: 0.9;
     margin-top: 0.2%;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
 }
 
 li {
@@ -104,8 +104,17 @@ li {
 /* CARDS STYLE */
 
 .logo-lp {
-    height: 25%;
-    width: 15%;
+    height: 22%;
+    width: 12%;
+}
+.logo-lp:hover {
+    transform: scale(1.2);
+}
+.div-logo {
+    margin-top: 2%;
+}
+.cont {
+    margin-top: 1.5%;
 }
 .contenant-cards1, .contenant-cards2, .contenant-cards3 {
     width: 40%;
@@ -225,28 +234,63 @@ li {
 
 /*//////////////////////////////////////////////// CV SECTION \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 /* SECTION CV STYLE */
-.bg-cv {
-    width: 98.5%;
-    height: 73.8vh;
-    border-radius: 20px;
-    margin: 0.6%;
+.emplois {
+    width: 33%;
+    height: 98.5%;
+    border-radius: 16px;
+    margin: 0.5%;
     border: 1px solid white;
 }
+.middle-block {
+    width: 32%;
+}
+.bg-cv {
+    width: 100%;
+    height: 58%;
+    border-radius: 16px;
+    margin: 1.5% 0 0 0;
+    border: 1px solid white;
+}
+.contenant-identity {
+    width: 100%;
+    height: 42%;
+}
+
 .frame-photo {
     background-color: gray;
     border: 1px solid red;
     border-radius: 10px;
-    height: 18vh;
-    width: 11%;
-    margin: 1%;
+    height: 98%;
+    width: 35%;
+    margin: 1.5% 3% 3% 2%;
 }
-.identity {
+.contenant-identity {
     width: 100%;
-    margin: 1%;
+    margin: 3% 0;
 }
 .name {
     text-decoration: underline red;
 }
+.diplomes {
+    width: 100%;
+    height: 39.7%;
+    border-radius: 16px;
+    margin: 1.5% 0 0 0;
+    border: 1px solid white;
+}
+.divers {
+    width: 33%;
+    height: 98.5%;
+    border-radius: 16px;
+    margin: 0.5% 0 0.5% 0.5%;
+    border: 1px solid white;
+}
+
+.emplois:hover, .bg-cv:hover, .diplomes:hover, .divers:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
 
 /*//////////////////////////////////////////////// CONTACT SECTION \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 /* SECTION CANTACT STYLE */
@@ -281,4 +325,9 @@ li {
 }
 .form-label, .to {
     text-decoration: underline red;
+}
+
+
+footer {
+    height: 20vh;
 }
