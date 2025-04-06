@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./style/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
@@ -15,13 +17,45 @@
 
 
 <body class="bg-black">
-        <!-- START NAVBAR -->
-        <section class="navbar-section d-flex justify-content-center">
+    <div class="nav-section burger-cross">
+        <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="wrapper">
+            <div class="wrapper-content mt-5 h-100 w-100">
+                <div class="row text-uppercase">
+                    <div class="nav-items-wrapper d-flex flex-column align-items-center justify-content-around pt-5">
+                        <div class="nav-item mb-3">
+                            <a class="nav-link active text-white" aria-current="page" href="#presentation">présentation</a>
+                        </div>
+                        <div class="nav-item mb-3">
+                            <a class="nav-link text-white" href="#competences">compétences</a>
+                        </div>
+                        <div class="nav-item mb-3">
+                            <a class="nav-link text-white" href="#cv">cv</a>
+                        </div>
+                        <div class="nav-item mb-3">
+                            <a class="nav-link text-white" href="#projets">projets</a>
+                        </div>
+                        <div class="nav-item mb-3">
+                            <a class="nav-link text-white" href="#contact">contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- START NAVBAR -->
+    <section class="navbar-section d-flex justify-content-center">
             <nav class="navbar navbar-expand-lg position-fixed">
                 <div class="container-fluid d-flex justify-content-center">
-                    <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                    </button>
+                    </button> -->
                     <div class="col collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 column-gap-5 text-uppercase bg-black rounded-4">
                             <li class="nav-item">
@@ -43,26 +77,12 @@
                     </div>
                 </div>
             </nav>
-        </section>
-        <section class="burger-cross">
-            <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-            <a class="navbar-burger is-active" role="button" aria-label="menu" aria-expanded="false">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-              </a>
-        </section>
-        <!-- END NAVBAR -->
+    </section>
+    <!-- END NAVBAR -->
 
     <!-- START HEADER -->
-    <header>
-        <h1 class="display-1 text-decoration text-center text-white" id="presentation">Bruno Hémon</h1>
+    <header id="presentation">
+        <h1 class="h1 display-1 text-decoration text-center text-white" >Bruno Hémon</h1>
             <div class="d-flex justify-content-center">
                 <div class="photo text-center fs-5">photo</div>
             </div>
@@ -83,7 +103,7 @@
         <!-- END SEPARATEUR -->
 
 
-<!-- START SECTION COMPETENCES -->
+        <!-- START SECTION COMPETENCES -->
         <section class="comp" id="competences"> 
             <div>
                 <h3 class="section-title text-uppercase text-center fs-5">compétences</h3>
@@ -112,7 +132,7 @@
                 </div>
             </div>
         </section>
-<!-- END SECTION COMPETENCES-->
+        <!-- END SECTION COMPETENCES-->
 
 
         <!-- START SEPARATEUR -->
@@ -125,7 +145,7 @@
         <!-- END SEPARATEUR -->
 
 
-<!-- START SECTION CV -->
+        <!-- START SECTION CV -->
         <section class="portfolio" id="cv">
             <h3 class="section-title text-uppercase text-center fs-5">cv</h3>
             <div class="contenant-form d-flex justify-content-center">
@@ -158,7 +178,7 @@
                 </div>
             </div>
         </section>
-<!-- END SECTION CV-->
+        <!-- END SECTION CV-->
         
 
         <!-- START SEPARATEUR -->
@@ -171,7 +191,7 @@
         <!-- END SEPARATEUR -->
 
 
-<!-- START SECTION DIPLOMES -->
+        <!-- START SECTION DIPLOMES -->
         <section class="projets" id="projets"> 
             <h3 class="section-title text-uppercase text-center fs-5">projets</h3>
             <div class="contenant-form d-flex justify-content-center">
@@ -180,7 +200,7 @@
                 </div>
             </div>
         </section>
-<!-- END SECTION DIPLOMES -->
+        <!-- END SECTION DIPLOMES -->
 
 
         <!-- START SEPARATEUR -->
@@ -193,7 +213,7 @@
         <!-- END SEPARATEUR -->
 
 
-<!-- START SECTION CONTACT -->
+        <!-- START SECTION CONTACT -->
         <section class="contact" id="contact">
             <div class="d-flex justify-content-center">
                 <h3 class="section-title text-uppercase text-center fs-5">contact</h3>
@@ -222,7 +242,7 @@
                         <div class="d-flex justify-content-center">
                             <div class="div-textarea text-center">
                                 <label class="to" for="your-message">Your message</label>
-                                <textarea class="textarea rounded-2 text-black" name="message" id="story" rows="4" cols="15" required></textarea>
+                                <textarea class="textarea rounded-2 text-black bg-white" name="message" id="story" rows="4" cols="15" required></textarea>
                             </div>
                         </div>    
                         <br>
@@ -236,10 +256,5 @@
         </section>
 <!-- END SECTION CONTACT -->
 
-
-    <footer>
-
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
