@@ -37,9 +37,11 @@ body {
 #presentation {
     height: 81vh;
 }
+
 .title-h6 {
     text-decoration: underline red;
     padding-top: 0.3%;
+    font-weight: bold;
 }
 .container-title {
     width: 50%;
@@ -52,7 +54,8 @@ body {
 .section-title {
     padding-top: 1%;
     text-decoration: underline red;
-    margin: 3% 0%;
+    margin: 6% 0%;
+    font-weight: bold;
 }
 .h1 {
     font-family: "Italianno", serif;
@@ -132,12 +135,46 @@ h2 {
 
 /* CARDS STYLE */
 
+.cont-lang-front, .cont-lang-back {
+    width: 48%;
+}
+.cont-framew-css, .cont-framew-back {
+    width: 32%;
+}
+.cont-lang-back {
+    width: 48%;
+}
+.cont-img {
+    height: 8rem;
+    width: 8rem;
+    gap: 2%;
+}
+
 .logo-lp {
-    height: 22%;
-    width: 12%;
+    height: 100%;
+    width: 100%;
+}
+.logo-js {
+  transform: scale(1.2);
+  height: 80%;
+  width: 90%;
+}
+.logo-sass {
+    transform: scale(1.45);
+    height: 90%;
+}
+.logo-symfo {
+    height: 90%;
+    width: 90%;
 }
 .logo-lp:hover {
     transform: scale(1.2);
+}
+.logo-sass:hover {
+  transform: scale(1.70);
+}
+.logo-js:hover {
+  transform: scale(1.40);
 }
 .div-logo {
     margin-top: 2%;
@@ -346,12 +383,12 @@ h2 {
     margin: auto;
 }
 .div-textarea {
-    height: 100%;
+    height: 12rem;
     width: 80%;
 }
 .textarea {
     width: 100%;
-    height: 100%;
+    height: 12rem;
     border: 1px solid red;
     overflow: auto;
     margin-left: 0%;
